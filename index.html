@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assests/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assests/images/ProfileAv.jpg" alt="Subhash Kumawat" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Subhash Kumawat">Subhash Kumawat</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kumawatsubhash388@gmail.com" class="contact-link">kumawatsubhash388@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917073389497" class="contact-link">+91 7073389497</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">oct 08, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Jaipur , Rajasthan </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+           <p> I'm Subhash Kumawat, a Computer Science student at the National Institute of Technology (NIT) Patna, originally from Jaipur, Rajasthan. I have a strong passion for problem-solving and technology, with expertise in C++, Data Structures & Algorithms (DSA), web development, and core computer science subjects. </p>
+            <p> I thrive on tackling complex coding challenges and have solved over 500+ DSA problems across various platforms. My LeetCode rating stands at 1625, placing me among the top 20% of coders. Beyond problem-solving, I enjoy developing intuitive and efficient web solutions, ensuring both functionality and user-friendly design. </p> 
+          </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/wed design.jpg " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/web development.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+           
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+        
+          <ul class="testimonials-list has-scrollbar">
+        
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+        
+                <figure class="testimonials-avatar-box">
+                  <img src="./assests//images/ProfileAv.jpg" alt="Amit Sharma" width="60" data-testimonials-avatar>
+                </figure>
+        
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Sharma</h4>
+        
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rajesh was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience
+                    and is very concerned about the needs of clients. Highly professional and talented. 
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+        
+                <figure class="testimonials-avatar-box">
+                  <img src="./assests//images/ProfileAv.jpg" alt="Priya Verma" width="60" data-testimonials-avatar>
+                </figure>
+        
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Priya Verma</h4>
+        
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rajesh was hired to develop our branding strategy. His insights were invaluable, and he truly understands the Indian market.
+                    We were highly satisfied with his work. 
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+        
+                <figure class="testimonials-avatar-box">
+                  <img src="./assests//images/ProfileAv.jpg" alt="Ravi Patel" width="60" data-testimonials-avatar>
+                </figure>
+        
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ravi Patel</h4>
+        
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Rajesh did an excellent job designing our website. His expertise in UI/UX is outstanding, and he ensured smooth functionality.
+                    Would highly recommend his services. 
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+        
+                <figure class="testimonials-avatar-box">
+                  <img src="./assests//images/ProfileAv.jpg" alt="Sanya Iyer" width="60" data-testimonials-avatar>
+                </figure>
+        
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sanya Iyer</h4>
+        
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Rajesh was a fantastic experience. His ability to understand client requirements and deliver quality work on time
+                    is commendable. We look forward to working with him again.
+                  </p>
+                </div>
+        
+              </div>
+            </li>
+        
+          </ul>
+        
+        </section>
+        
+        <!-- Testimonials Modal -->
+        <div class="modal-container" data-modal-container>
+        
+          <div class="overlay" data-overlay></div>
+        
+          <section class="testimonials-modal">
+        
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+        
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Amit Sharma" width="80" data-modal-img>
+              </figure>
+        
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+        
+            <div class="modal-content">
+        
+              <h4 class="h3 modal-title" data-modal-title>Amit Sharma</h4>
+        
+              <time datetime="2023-12-05">5 December, 2023</time>
+        
+              <div data-modal-text>
+                <p>
+                  Rajesh was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience
+                  and is very concerned about the needs of clients. Highly professional and talented.
+                </p>
+              </div>
+        
+            </div>
+        
+          </section>
+        
+        </div>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">High School</h4>
+              <span>Rajasthan Public Senior Secondary, Paota</span>
+              <p class="timeline-text">
+                Completed my high school education with a strong foundation in science and mathematics, fostering my interest in problem-solving and technology.
+              </p>
+            </li>
+            
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">National Institute of Technology, Patna</h4>
+              <span>Computer Science</span>
+              <p class="timeline-text">
+                Pursuing a Bachelor's degree in Computer Science, specializing in problem-solving, data structures & algorithms, web development, and core computer science fundamentals.
+              </p>
+            </li>
+            
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Smart India Hackathon</h4>
+              <span>Participated & Selected in Top 20 Teams</span>
+              <p class="timeline-text">
+                Took part in the prestigious Smart India Hackathon, where my team was selected among the top 20 teams across colleges. Collaborated on innovative solutions to real-world problems, applying my skills in problem-solving, coding, and teamwork.
+              </p>
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://generate-ai-trip.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assests//images/Trip-Planner.png" alt="finance" loading="lazy">
+                </figure>
+                <div style="display: flex; justify-content: space-around;">
+                  <h3 class="project-title">Gerenate-AI-Trip </h3>
+                  <a href="https://github.com/Subhashk75/Generate-ai-trip"> GitHub</a>
+                </div>
+                
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://practice-oz2i-git-main-ravi-kumawats-projects.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assests//images/school.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">School Website</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Student Blog</h2>
+        </header>
+      
+        <section class="blog-posts">
+      
+          <ul class="blog-posts-list">
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/Blogging.jpeg" alt="Top Study Tips for College Students" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Academics</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-03-10">March 10, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Top Study Tips for College Students</h3>
+      
+                  <p class="blog-text">
+                    Struggling to focus? Here are 10 study hacks that can help you boost productivity and ace your exams.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/blogexamples.png" alt="Best Budget-Friendly Laptops for Students" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Tech</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-03-05">March 5, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Best Budget-Friendly Laptops for Students</h3>
+      
+                  <p class="blog-text">
+                    Looking for a laptop that won’t break the bank? Check out our top picks for students under ₹50,000.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/Blogging.jpeg" alt="How to Balance Studies and Social Life" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Lifestyle</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-02-28">February 28, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">How to Balance Studies and Social Life</h3>
+      
+                  <p class="blog-text">
+                    College life can be hectic! Here are some tips to manage your time effectively and enjoy student life.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/blogexamples.png" alt="Internship Guide: How to Land Your First Internship" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Career</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-02-15">February 15, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Internship Guide: How to Land Your First Internship</h3>
+      
+                  <p class="blog-text">
+                    Searching for internships? Here’s everything you need to know about resumes, applications, and interviews.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/blogexamples.png" alt="Best Side Hustles for College Students" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Finance</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-02-05">February 5, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Best Side Hustles for College Students</h3>
+      
+                  <p class="blog-text">
+                    Need some extra cash? Here are the best part-time jobs and online gigs for students.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+            <li class="blog-post-item">
+              <a href="#">
+      
+                <figure class="blog-banner-box">
+                  <img src="./assests/images/Blogging.jpeg" alt="Must-Read Books for College Students" loading="lazy">
+                </figure>
+      
+                <div class="blog-content">
+      
+                  <div class="blog-meta">
+                    <p class="blog-category">Books</p>
+      
+                    <span class="dot"></span>
+      
+                    <time datetime="2024-01-20">January 20, 2024</time>
+                  </div>
+      
+                  <h3 class="h3 blog-item-title">Must-Read Books for College Students</h3>
+      
+                  <p class="blog-text">
+                    Expand your knowledge and mindset with these must-read books for every college student.
+                  </p>
+      
+                </div>
+      
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/place/Jaipur,+Rajasthan/@26.8854214,75.6257446,11z/data=!3m1!4b1!4m6!3m5!1s0x396c4adf4c57e281:0xce1c63a0cf22e09!8m2!3d26.9124336!4d75.7872709!16zL20vMDE2NzIy?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assests/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
